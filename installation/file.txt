@@ -1,0 +1,17 @@
+
+
+sudo apt-get install software-properties-common
+
+
+Stable Version
+
+sudo apt-add-repository ppa:swi-prolog/stable
+sudo apt update
+sudo apt-get install swi-prolog
+
+
+
+Development Version
+sudo apt-add-repository ppa:swi-prolog/devel
+sudo apt update
+sudo apt-get install swi-prolog
